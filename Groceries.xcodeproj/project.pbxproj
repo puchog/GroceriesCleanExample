@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E61972C31E54D3E2009BE8EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61972C21E54D3E2009BE8EE /* AppDelegate.swift */; };
+		E61972C81E54D3E2009BE8EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61972C61E54D3E2009BE8EE /* Main.storyboard */; };
+		E61972CA1E54D3E2009BE8EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61972C91E54D3E2009BE8EE /* Assets.xcassets */; };
+		E61972CD1E54D3E2009BE8EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61972CB1E54D3E2009BE8EE /* LaunchScreen.storyboard */; };
+		E61972FC1E54D580009BE8EE /* CountProductsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61972F51E54D580009BE8EE /* CountProductsConfigurator.swift */; };
+		E61972FD1E54D580009BE8EE /* CountProductsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61972F51E54D580009BE8EE /* CountProductsConfigurator.swift */; };
+		E61972FE1E54D580009BE8EE /* CountProductsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61972F61E54D580009BE8EE /* CountProductsInteractor.swift */; };
+		E61972FF1E54D580009BE8EE /* CountProductsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61972F61E54D580009BE8EE /* CountProductsInteractor.swift */; };
+		E61973001E54D580009BE8EE /* CountProductsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61972F71E54D580009BE8EE /* CountProductsModels.swift */; };
+		E61973011E54D580009BE8EE /* CountProductsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61972F71E54D580009BE8EE /* CountProductsModels.swift */; };
+		E61973021E54D580009BE8EE /* CountProductsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61972F81E54D580009BE8EE /* CountProductsPresenter.swift */; };
+		E61973031E54D580009BE8EE /* CountProductsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61972F81E54D580009BE8EE /* CountProductsPresenter.swift */; };
+		E61973041E54D580009BE8EE /* CountProductsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61972F91E54D580009BE8EE /* CountProductsRouter.swift */; };
+		E61973051E54D580009BE8EE /* CountProductsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61972F91E54D580009BE8EE /* CountProductsRouter.swift */; };
+		E61973061E54D580009BE8EE /* CountProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61972FA1E54D580009BE8EE /* CountProductsViewController.swift */; };
+		E61973071E54D580009BE8EE /* CountProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61972FA1E54D580009BE8EE /* CountProductsViewController.swift */; };
+		E692197E1E5614A7000A7EF8 /* GroceriesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692197D1E5614A7000A7EF8 /* GroceriesWorker.swift */; };
+		E692197F1E5614A7000A7EF8 /* GroceriesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692197D1E5614A7000A7EF8 /* GroceriesWorker.swift */; };
+		E69219811E5615FA000A7EF8 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69219801E5615FA000A7EF8 /* GroceryItem.swift */; };
+		E69219821E5615FA000A7EF8 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69219801E5615FA000A7EF8 /* GroceryItem.swift */; };
+		E69219841E561A0E000A7EF8 /* GroceriesStaticStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69219831E561A0E000A7EF8 /* GroceriesStaticStore.swift */; };
+		E69219851E561A0E000A7EF8 /* GroceriesStaticStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69219831E561A0E000A7EF8 /* GroceriesStaticStore.swift */; };
+		E69219871E562A37000A7EF8 /* GroceriesWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69219861E562A37000A7EF8 /* GroceriesWorkerTests.swift */; };
+		E69219891E56307D000A7EF8 /* CountProductsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69219881E56307D000A7EF8 /* CountProductsPresenterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E61972D41E54D3E3009BE8EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E61972B71E54D3E2009BE8EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61972BE1E54D3E2009BE8EE;
+			remoteInfo = Groceries;
+		};
+		E61972DF1E54D3E3009BE8EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E61972B71E54D3E2009BE8EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61972BE1E54D3E2009BE8EE;
+			remoteInfo = Groceries;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E61972BF1E54D3E2009BE8EE /* Groceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groceries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61972C21E54D3E2009BE8EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E61972C71E54D3E2009BE8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E61972C91E54D3E2009BE8EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E61972CC1E54D3E2009BE8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E61972CE1E54D3E2009BE8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E61972D31E54D3E3009BE8EE /* GroceriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61972D91E54D3E3009BE8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E61972DE1E54D3E3009BE8EE /* GroceriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61972F51E54D580009BE8EE /* CountProductsConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountProductsConfigurator.swift; sourceTree = "<group>"; };
+		E61972F61E54D580009BE8EE /* CountProductsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountProductsInteractor.swift; sourceTree = "<group>"; };
+		E61972F71E54D580009BE8EE /* CountProductsModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountProductsModels.swift; sourceTree = "<group>"; };
+		E61972F81E54D580009BE8EE /* CountProductsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountProductsPresenter.swift; sourceTree = "<group>"; };
+		E61972F91E54D580009BE8EE /* CountProductsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountProductsRouter.swift; sourceTree = "<group>"; };
+		E61972FA1E54D580009BE8EE /* CountProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountProductsViewController.swift; sourceTree = "<group>"; };
+		E692197D1E5614A7000A7EF8 /* GroceriesWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceriesWorker.swift; sourceTree = "<group>"; };
+		E69219801E5615FA000A7EF8 /* GroceryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		E69219831E561A0E000A7EF8 /* GroceriesStaticStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceriesStaticStore.swift; sourceTree = "<group>"; };
+		E69219861E562A37000A7EF8 /* GroceriesWorkerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceriesWorkerTests.swift; sourceTree = "<group>"; };
+		E69219881E56307D000A7EF8 /* CountProductsPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountProductsPresenterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E61972BC1E54D3E2009BE8EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61972D01E54D3E3009BE8EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61972DB1E54D3E3009BE8EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E61972B61E54D3E2009BE8EE = {
+			isa = PBXGroup;
+			children = (
+				E61972C11E54D3E2009BE8EE /* Groceries */,
+				E61972D61E54D3E3009BE8EE /* GroceriesTests */,
+				E61972C01E54D3E2009BE8EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E61972C01E54D3E2009BE8EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E61972BF1E54D3E2009BE8EE /* Groceries.app */,
+				E61972D31E54D3E3009BE8EE /* GroceriesTests.xctest */,
+				E61972DE1E54D3E3009BE8EE /* GroceriesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E61972C11E54D3E2009BE8EE /* Groceries */ = {
+			isa = PBXGroup;
+			children = (
+				E692197A1E561213000A7EF8 /* Models */,
+				E692197C1E561479000A7EF8 /* Workers */,
+				E692197B1E561479000A7EF8 /* Services */,
+				E61972F11E54D485009BE8EE /* Scenes */,
+				E61972C21E54D3E2009BE8EE /* AppDelegate.swift */,
+				E61972C61E54D3E2009BE8EE /* Main.storyboard */,
+				E61972C91E54D3E2009BE8EE /* Assets.xcassets */,
+				E61972CB1E54D3E2009BE8EE /* LaunchScreen.storyboard */,
+				E61972CE1E54D3E2009BE8EE /* Info.plist */,
+			);
+			path = Groceries;
+			sourceTree = "<group>";
+		};
+		E61972D61E54D3E3009BE8EE /* GroceriesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E61972D91E54D3E3009BE8EE /* Info.plist */,
+				E69219861E562A37000A7EF8 /* GroceriesWorkerTests.swift */,
+				E69219881E56307D000A7EF8 /* CountProductsPresenterTests.swift */,
+			);
+			path = GroceriesTests;
+			sourceTree = "<group>";
+		};
+		E61972F11E54D485009BE8EE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E61972F41E54D4DC009BE8EE /* CountProducts */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E61972F41E54D4DC009BE8EE /* CountProducts */ = {
+			isa = PBXGroup;
+			children = (
+				E61972F51E54D580009BE8EE /* CountProductsConfigurator.swift */,
+				E61972F61E54D580009BE8EE /* CountProductsInteractor.swift */,
+				E61972F71E54D580009BE8EE /* CountProductsModels.swift */,
+				E61972F81E54D580009BE8EE /* CountProductsPresenter.swift */,
+				E61972F91E54D580009BE8EE /* CountProductsRouter.swift */,
+				E61972FA1E54D580009BE8EE /* CountProductsViewController.swift */,
+			);
+			path = CountProducts;
+			sourceTree = "<group>";
+		};
+		E692197A1E561213000A7EF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E69219801E5615FA000A7EF8 /* GroceryItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E692197B1E561479000A7EF8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E69219831E561A0E000A7EF8 /* GroceriesStaticStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E692197C1E561479000A7EF8 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				E692197D1E5614A7000A7EF8 /* GroceriesWorker.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E61972BE1E54D3E2009BE8EE /* Groceries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61972E71E54D3E3009BE8EE /* Build configuration list for PBXNativeTarget "Groceries" */;
+			buildPhases = (
+				E61972BB1E54D3E2009BE8EE /* Sources */,
+				E61972BC1E54D3E2009BE8EE /* Frameworks */,
+				E61972BD1E54D3E2009BE8EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Groceries;
+			productName = Groceries;
+			productReference = E61972BF1E54D3E2009BE8EE /* Groceries.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E61972D21E54D3E3009BE8EE /* GroceriesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61972EA1E54D3E3009BE8EE /* Build configuration list for PBXNativeTarget "GroceriesTests" */;
+			buildPhases = (
+				E61972CF1E54D3E3009BE8EE /* Sources */,
+				E61972D01E54D3E3009BE8EE /* Frameworks */,
+				E61972D11E54D3E3009BE8EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E61972D51E54D3E3009BE8EE /* PBXTargetDependency */,
+			);
+			name = GroceriesTests;
+			productName = GroceriesTests;
+			productReference = E61972D31E54D3E3009BE8EE /* GroceriesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E61972DD1E54D3E3009BE8EE /* GroceriesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61972ED1E54D3E3009BE8EE /* Build configuration list for PBXNativeTarget "GroceriesUITests" */;
+			buildPhases = (
+				E61972DA1E54D3E3009BE8EE /* Sources */,
+				E61972DB1E54D3E3009BE8EE /* Frameworks */,
+				E61972DC1E54D3E3009BE8EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E61972E01E54D3E3009BE8EE /* PBXTargetDependency */,
+			);
+			name = GroceriesUITests;
+			productName = GroceriesUITests;
+			productReference = E61972DE1E54D3E3009BE8EE /* GroceriesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E61972B71E54D3E2009BE8EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = me;
+				TargetAttributes = {
+					E61972BE1E54D3E2009BE8EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E61972D21E54D3E3009BE8EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E61972BE1E54D3E2009BE8EE;
+					};
+					E61972DD1E54D3E3009BE8EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E61972BE1E54D3E2009BE8EE;
+					};
+				};
+			};
+			buildConfigurationList = E61972BA1E54D3E2009BE8EE /* Build configuration list for PBXProject "Groceries" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E61972B61E54D3E2009BE8EE;
+			productRefGroup = E61972C01E54D3E2009BE8EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E61972BE1E54D3E2009BE8EE /* Groceries */,
+				E61972D21E54D3E3009BE8EE /* GroceriesTests */,
+				E61972DD1E54D3E3009BE8EE /* GroceriesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E61972BD1E54D3E2009BE8EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61972CD1E54D3E2009BE8EE /* LaunchScreen.storyboard in Resources */,
+				E61972CA1E54D3E2009BE8EE /* Assets.xcassets in Resources */,
+				E61972C81E54D3E2009BE8EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61972D11E54D3E3009BE8EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61972DC1E54D3E3009BE8EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E61972BB1E54D3E2009BE8EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61973061E54D580009BE8EE /* CountProductsViewController.swift in Sources */,
+				E69219811E5615FA000A7EF8 /* GroceryItem.swift in Sources */,
+				E61972FE1E54D580009BE8EE /* CountProductsInteractor.swift in Sources */,
+				E61972FC1E54D580009BE8EE /* CountProductsConfigurator.swift in Sources */,
+				E61973021E54D580009BE8EE /* CountProductsPresenter.swift in Sources */,
+				E61972C31E54D3E2009BE8EE /* AppDelegate.swift in Sources */,
+				E61973001E54D580009BE8EE /* CountProductsModels.swift in Sources */,
+				E692197E1E5614A7000A7EF8 /* GroceriesWorker.swift in Sources */,
+				E61973041E54D580009BE8EE /* CountProductsRouter.swift in Sources */,
+				E69219841E561A0E000A7EF8 /* GroceriesStaticStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61972CF1E54D3E3009BE8EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61972FF1E54D580009BE8EE /* CountProductsInteractor.swift in Sources */,
+				E69219821E5615FA000A7EF8 /* GroceryItem.swift in Sources */,
+				E61973011E54D580009BE8EE /* CountProductsModels.swift in Sources */,
+				E61973051E54D580009BE8EE /* CountProductsRouter.swift in Sources */,
+				E69219891E56307D000A7EF8 /* CountProductsPresenterTests.swift in Sources */,
+				E61972FD1E54D580009BE8EE /* CountProductsConfigurator.swift in Sources */,
+				E61973071E54D580009BE8EE /* CountProductsViewController.swift in Sources */,
+				E61973031E54D580009BE8EE /* CountProductsPresenter.swift in Sources */,
+				E692197F1E5614A7000A7EF8 /* GroceriesWorker.swift in Sources */,
+				E69219871E562A37000A7EF8 /* GroceriesWorkerTests.swift in Sources */,
+				E69219851E561A0E000A7EF8 /* GroceriesStaticStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61972DA1E54D3E3009BE8EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E61972D51E54D3E3009BE8EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E61972BE1E54D3E2009BE8EE /* Groceries */;
+			targetProxy = E61972D41E54D3E3009BE8EE /* PBXContainerItemProxy */;
+		};
+		E61972E01E54D3E3009BE8EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E61972BE1E54D3E2009BE8EE /* Groceries */;
+			targetProxy = E61972DF1E54D3E3009BE8EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E61972C61E54D3E2009BE8EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E61972C71E54D3E2009BE8EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E61972CB1E54D3E2009BE8EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E61972CC1E54D3E2009BE8EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E61972E51E54D3E3009BE8EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E61972E61E54D3E3009BE8EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E61972E81E54D3E3009BE8EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Groceries/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.Groceries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E61972E91E54D3E3009BE8EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Groceries/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.Groceries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E61972EB1E54D3E3009BE8EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GroceriesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.GroceriesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Groceries.app/Groceries";
+			};
+			name = Debug;
+		};
+		E61972EC1E54D3E3009BE8EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GroceriesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.GroceriesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Groceries.app/Groceries";
+			};
+			name = Release;
+		};
+		E61972EE1E54D3E3009BE8EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GroceriesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.GroceriesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Groceries;
+			};
+			name = Debug;
+		};
+		E61972EF1E54D3E3009BE8EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GroceriesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.GroceriesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Groceries;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E61972BA1E54D3E2009BE8EE /* Build configuration list for PBXProject "Groceries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61972E51E54D3E3009BE8EE /* Debug */,
+				E61972E61E54D3E3009BE8EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61972E71E54D3E3009BE8EE /* Build configuration list for PBXNativeTarget "Groceries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61972E81E54D3E3009BE8EE /* Debug */,
+				E61972E91E54D3E3009BE8EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61972EA1E54D3E3009BE8EE /* Build configuration list for PBXNativeTarget "GroceriesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61972EB1E54D3E3009BE8EE /* Debug */,
+				E61972EC1E54D3E3009BE8EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61972ED1E54D3E3009BE8EE /* Build configuration list for PBXNativeTarget "GroceriesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61972EE1E54D3E3009BE8EE /* Debug */,
+				E61972EF1E54D3E3009BE8EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E61972B71E54D3E2009BE8EE /* Project object */;
+}
